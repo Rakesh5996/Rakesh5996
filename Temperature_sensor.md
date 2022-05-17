@@ -1,3 +1,4 @@
+```cpp
 // C++ code
 //
 const int hot = 35; //set hot parameter const
@@ -39,7 +40,7 @@ void loop()
      } 
      delay(10); 
     }
-
+``` 
 
 
 
