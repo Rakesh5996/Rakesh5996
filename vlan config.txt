@@ -1,0 +1,20 @@
+enable 
+conf t
+end
+
+interface fa0/1
+vlan 10
+name cse
+exit
+
+interface fa0/2
+vlan 10 
+name cse exit
+
+#################
+
+interface fa0/1
+switchport mode access
+switchport access vlan10
+exit
+
