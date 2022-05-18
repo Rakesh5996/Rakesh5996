@@ -1,0 +1,11 @@
+en 
+conf t
+hostname router1
+enable secret Rakesh@5996
+interface gigabitethernet 0/0/0
+ip address 192.168.12.1 255.255.255.0
+no shut
+
+
+
+sh ip int br 
